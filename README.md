@@ -8,7 +8,7 @@
 
 **The Industry Standard for Digital KAP Assessment**
 
-[Explore Dashboard](https://your-demo-link.com) · [Report Bug](https://github.com/AnirudhGirish/survey/issues) · [Request Feature](https://github.com/AnirudhGirish/survey/issues)
+[Explore Dashboard](https://dental-eco-survey.vercel.app/) · [Report Bug](https://github.com/AnirudhGirish/survey/issues) · [Request Feature](https://github.com/AnirudhGirish/survey/issues)
 
 </div>
 
