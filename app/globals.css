@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 248, 250, 252;
+
+  /* Premium Dental Palette */
+  --primary-rgb: 14, 116, 144;
+  /* Cyan 700 - Clinical/Trust */
+  --secondary-rgb: 56, 189, 248;
+  /* Sky 400 - Clean/Fresh */
+  --accent-rgb: 236, 72, 153;
+  /* Pink 500 - Health/Vitality (Subtle) */
+}
+
+@layer base {
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-full bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300;
+  }
+
+  .card-premium {
+    @apply bg-white/80 backdrop-blur-md rounded-2xl shadow-xl border border-white/50;
+  }
+}
