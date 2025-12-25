@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 
 import { useEffect, useState, useMemo } from 'react'
@@ -5,7 +6,7 @@ import { useRouter } from 'next/navigation'
 import { Users, FileDown, LogOut, Loader2, Sparkles, Search, GraduationCap, ClipboardCheck } from 'lucide-react'
 import DashboardCharts from '@/components/dashboard/DashboardCharts'
 import AiInsightChart from '@/components/dashboard/AiInsightChart'
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 
 export default function DashboardPage() {
     const [data, setData] = useState<any>(null)
@@ -216,12 +217,12 @@ export default function DashboardPage() {
 
                 {/* AI Analysis Section */}
                 <div className="relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-indigo-500/5 rounded-3xl -z-10 blur-xl" />
+                    <div className="absolute inset-0 bg-linear-to-r from-purple-500/5 to-indigo-500/5 rounded-3xl -z-10 blur-xl" />
 
                     <div className="card-premium p-8 border border-purple-100/50">
                         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
                             <div className="flex items-center gap-3">
-                                <div className="p-3 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-xl text-white shadow-lg shadow-purple-200">
+                                <div className="p-3 bg-linear-to-br from-purple-500 to-indigo-600 rounded-xl text-white shadow-lg shadow-purple-200">
                                     <Sparkles className="w-6 h-6" />
                                 </div>
                                 <div>
@@ -263,7 +264,7 @@ export default function DashboardPage() {
                         ) : (
                             <div className="text-center py-12 bg-slate-50/50 rounded-2xl border border-dashed border-slate-200">
                                 <Sparkles className="w-12 h-12 text-slate-300 mx-auto mb-3" />
-                                <p className="text-slate-500 font-medium">Click "Generate New Report" to analyze trends and create custom charts.</p>
+                                <p className="text-slate-500 font-medium">Click &quot;Generate New Report&quot; to analyze trends and create custom charts.</p>
                             </div>
                         )}
                     </div>

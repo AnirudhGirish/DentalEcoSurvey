@@ -27,21 +27,21 @@ export const questions: Question[] = [
         explanation: "Segregation at source facilitates recycling and safe disposal.",
         section: "Knowledge"
     },
+    // {
+    //     id: 2,
+    //     text: "Which of the following can be sterilized and reused?",
+    //     options: {
+    //         A: "Disposable gloves",
+    //         B: "Glass dappen dishes",
+    //         C: "Impression trays (plastic)",
+    //         D: "Cotton rolls"
+    //     },
+    //     correctAnswer: "B",
+    //     explanation: "Glass items can be autoclaved and reused safely.",
+    //     section: "Knowledge"
+    // },
     {
         id: 2,
-        text: "Which of the following can be sterilized and reused?",
-        options: {
-            A: "Disposable gloves",
-            B: "Glass dappen dishes",
-            C: "Impression trays (plastic)",
-            D: "Cotton rolls"
-        },
-        correctAnswer: "B",
-        explanation: "Glass items can be autoclaved and reused safely.",
-        section: "Knowledge"
-    },
-    {
-        id: 3,
         text: "Which of the following wastes is considered hazardous in dental practice?",
         options: {
             A: "Cotton rolls",
@@ -54,7 +54,7 @@ export const questions: Question[] = [
         section: "Knowledge"
     },
     {
-        id: 4,
+        id: 3,
         text: "What is the correct disposal method for X-ray fixer solution?",
         options: {
             A: "Drain into sink",
@@ -67,7 +67,7 @@ export const questions: Question[] = [
         section: "Knowledge"
     },
     {
-        id: 5,
+        id: 4,
         text: "What is the best approach to reduce single-use plastic in dentistry?",
         options: {
             A: "Increase stock",
@@ -80,7 +80,7 @@ export const questions: Question[] = [
         section: "Knowledge"
     },
     {
-        id: 6,
+        id: 5,
         text: "What is the importance of recycling dental materials?",
         options: {
             A: "Saves cost only",
@@ -95,7 +95,7 @@ export const questions: Question[] = [
 
     // Part 2 – Attitude Section
     {
-        id: 7,
+        id: 6,
         text: "Do you believe recycling dental materials is important in clinical practice?",
         options: {
             A: "Strongly agree",
@@ -108,7 +108,7 @@ export const questions: Question[] = [
         section: "Attitude"
     },
     {
-        id: 8,
+        id: 7,
         text: "Do you think lack of awareness affects recycling practices in dentistry?",
         options: {
             A: "Yes",
@@ -121,7 +121,7 @@ export const questions: Question[] = [
         section: "Attitude"
     },
     {
-        id: 9,
+        id: 8,
         text: "Should dental institutions include recycling education in their curriculum?",
         options: {
             A: "Yes",
@@ -134,7 +134,7 @@ export const questions: Question[] = [
         section: "Attitude"
     },
     {
-        id: 10,
+        id: 9,
         text: "Would you support government policies mandating recycling in dental clinics?",
         options: {
             A: "Strongly agree",
@@ -147,7 +147,7 @@ export const questions: Question[] = [
         section: "Attitude"
     },
     {
-        id: 11,
+        id: 10,
         text: "Do you believe recycling adds financial benefit to dental clinics?",
         options: {
             A: "Yes",
@@ -160,7 +160,7 @@ export const questions: Question[] = [
         section: "Attitude"
     },
     {
-        id: 12,
+        id: 11,
         text: "Are you confident about identifying recyclable materials in your practice?",
         options: {
             A: "Yes",
@@ -173,7 +173,7 @@ export const questions: Question[] = [
         section: "Attitude"
     },
     {
-        id: 13,
+        id: 12,
         text: "Do you believe all dental staff should be trained in recycling procedures?",
         options: {
             A: "Yes",
@@ -186,7 +186,7 @@ export const questions: Question[] = [
         section: "Attitude"
     },
     {
-        id: 14,
+        id: 13,
         text: "Should recycling be a mandatory part of infection control protocol?",
         options: {
             A: "Yes",
@@ -199,7 +199,7 @@ export const questions: Question[] = [
         section: "Attitude"
     },
     {
-        id: 15,
+        id: 14,
         text: "Do you agree that recycling improves the professional image of dental clinics?",
         options: {
             A: "Yes",
@@ -212,7 +212,7 @@ export const questions: Question[] = [
         section: "Attitude"
     },
     {
-        id: 16,
+        id: 15,
         text: "Would you be willing to participate in a recycling awareness program?",
         options: {
             A: "Yes",
@@ -227,7 +227,7 @@ export const questions: Question[] = [
 
     // Part 3 – Practice Section
     {
-        id: 17,
+        id: 16,
         text: "Do you currently segregate dental waste in your practice?",
         options: {
             A: "Always",
@@ -240,7 +240,7 @@ export const questions: Question[] = [
         section: "Practice"
     },
     {
-        id: 18,
+        id: 17,
         text: "Do you label and store recyclable waste separately from general waste?",
         options: {
             A: "Always",
@@ -253,7 +253,7 @@ export const questions: Question[] = [
         section: "Practice"
     },
     {
-        id: 19,
+        id: 18,
         text: "Do you maintain records of recycled materials in your clinic?",
         options: {
             A: "Yes",
@@ -266,7 +266,7 @@ export const questions: Question[] = [
         section: "Practice"
     },
     {
-        id: 20,
+        id: 19,
         text: "Have you attended any workshop on dental waste recycling?",
         options: {
             A: "Yes",
@@ -279,7 +279,7 @@ export const questions: Question[] = [
         section: "Practice"
     },
     {
-        id: 21,
+        id: 20,
         text: "Do you train your staff in proper waste segregation and recycling?",
         options: {
             A: "Yes",
@@ -292,7 +292,7 @@ export const questions: Question[] = [
         section: "Practice"
     },
     {
-        id: 22,
+        id: 21,
         text: "Are you willing to adopt advanced recycling technologies in your clinic?",
         options: {
             A: "Yes",
